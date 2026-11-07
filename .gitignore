@@ -1,0 +1,52 @@
+# ==========================================
+# ESP32-S3-Flight-Controller
+# KiCad Project .gitignore
+# ==========================================
+
+# KiCad local user settings
+*.kicad_prl
+
+# KiCad temporary and lock files
+*.lck
+*.kicad_pcb.lck
+*.kicad_sch.lck
+*~
+*.tmp
+
+# KiCad automatic backups
+*-backups/
+_autosave-*
+*.bak
+*.bck
+
+# KiCad rescue files
+*-rescue.kicad_sch
+*-rescue.kicad_sym
+
+# KiCad legacy cache files
+*-cache.lib
+
+# KiCad local footprint and symbol tables
+# Uncomment only if these are machine-specific.
+# fp-lib-table
+# sym-lib-table
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python cache (if scripts are added later)
+__pycache__/
+*.py[cod]
+.venv/
+
+# Build artifacts (if firmware is added later)
+build/
+.pio/
